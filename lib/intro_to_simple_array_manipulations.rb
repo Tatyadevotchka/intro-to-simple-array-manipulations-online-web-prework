@@ -3,6 +3,6 @@ it "takes in two arguments, an array and a string and adds that string to the en
   countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
   next country = "Niger"
   update_array = using.push (countries_in_western_africa, next country)
-  expected (updated_array.last).to eq 
+  expected (updated_array.last).to eq(next country)
   
   
