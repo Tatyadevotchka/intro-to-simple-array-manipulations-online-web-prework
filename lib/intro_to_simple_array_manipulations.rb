@@ -10,4 +10,5 @@ end
   
   describe "#using_unshift" do 
     before(:each) do 
-      neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", 
+      neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
+      
