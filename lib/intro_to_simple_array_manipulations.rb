@@ -12,4 +12,5 @@ end
     before(:each) do 
       neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
       @new_neighborhood = "Brooklyn Heights"
-      
+      @updated_array = using_unshift(neighborhoods_in_northwest_brooklyn, @new_neighborhood)
+    end
