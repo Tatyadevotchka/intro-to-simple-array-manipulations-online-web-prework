@@ -9,4 +9,5 @@ it "takes in two arguments, an array and a string and adds that string to the en
 end 
   
   describe "#using_unshift" do 
-    
+    before(:each) do 
+      
